@@ -1,0 +1,64 @@
+*{
+    align-items: center;
+}
+
+body{
+  margin: 0;
+  overflow: hidden;
+
+}
+
+.containerDiv{
+  position: relative;
+  height: 700px;
+  margin: 20px  ;
+
+}
+
+.buttonDiv{
+  height: 20%;
+  position: sticky;
+  bottom: 25px;
+}
+
+.col1, .col2 {
+    width: 48%;
+    display: inline-block;    
+}
+
+
+
+#stillImage{
+  position: absolute;
+  height: 82.99%;
+  box-shadow: 3px 3px 3px 3px grey;
+  margin-right: 10%;
+
+}
+#formSide{
+  padding: 10px;
+  height: 80%;
+overflow-y: scroll; 
+box-shadow: 3px 3px 3px 3px grey;
+
+}
+
+#formSide::-webkit-scrollbar
+{
+  display: none;
+}
+
+img{
+  height: 100%;
+  width: 100%;
+}
+input {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid black;
+  }
+  button {
+    background-color: rgb(229, 160, 250);
+    border-radius: 3px;
+  }
